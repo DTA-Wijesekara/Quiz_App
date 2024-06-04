@@ -12,7 +12,15 @@ class StartScreen extends StatelessWidget {
           Image.asset(
             'assets/images/quiz-logo.png',
             width: 300,
+            color: Color.fromARGB(151, 254, 254, 254),
           ),
+          // Opacity(
+          //   opacity: 0.7,
+          //   child: Image.asset(
+          //     'assets/images/quiz-logo.png',
+          //     width: 300,
+          //   ),
+          // ),
           const SizedBox(height: 50),
           const Text(
             'Learn Flutter Now',
